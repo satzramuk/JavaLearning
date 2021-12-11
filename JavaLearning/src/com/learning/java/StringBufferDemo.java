@@ -26,18 +26,22 @@ public class StringBufferDemo {
 		//Replace
 		StringBuffer replacethis = new StringBuffer("Arul");
 		System.out.println("Replacing the value :"+replacethis.replace(0, 3, "Riya"));
+
 		System.out.println("**********************************************");
 		//Delete
 		StringBuffer delete = new StringBuffer("xyzRiya");
-		System.out.println("Deleting the value :"+delete.delete(0, 3));
+		StringBuffer delete1 = new StringBuffer("xyzR");
+		System.out.println("Deleting the value :"+delete.delete(0,3));
+		
 		System.out.println("**********************************************");
 		//Insert
-		StringBuffer insert = new StringBuffer("Ravi");
-		System.out.println("Inserting the value :"+insert.insert(4, "Kumar"));
-		System.out.println("**********************************************");
+		StringBuffer insert1 = new StringBuffer("RaviKumar");
+		System.out.println("Inserting the value :"+insert1.insert(4, "Kumar"));
 
+		System.out.println("**********************************************");
+ 
 		//Capacity
-		System.out.println("Capacity :"+insert.capacity());
+		System.out.println("Capacity :"+insert1.capacity());
 
 		//Like String we have chartAt, Substring, length methods as well
 

@@ -10,6 +10,8 @@ public class StringDemo {
 		String name = " SathishKumar ";
 		
 		
+		
+		
 		String empname = "Ravi";
 		int number = 3;
 
@@ -108,13 +110,15 @@ public class StringDemo {
 		//Returns a Joined String with Given delimiter
 		System.out.println("17th one is: "+String.join("-", "Automation","Testing","Learning"));
 		System.out.println("18th one is: "+String.join("/", "24","05","2021"));
+		
 
 		System.out.println("**********************************************");
 
 
 		//split
 		String splitThis ="Am,I,teaching,good?";
-		String[] splited = splitThis.split(",");
+		String splithis = "India Is My Country";
+		String[] splited = splithis.split(" ");
 
 		for (String val : splited) {
 
