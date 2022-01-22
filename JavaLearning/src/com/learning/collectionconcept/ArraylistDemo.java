@@ -3,15 +3,23 @@ package com.learning.collectionconcept;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
+import java.util.List;
+import java.util.Vector;
 
 public class ArraylistDemo {
 
 	public static void main(String[] args) {
 		
+		
+		
 		ArrayList<Object> ar = new ArrayList<Object>();
 
-		ar.add(100);
-		ar.add(200);
+		ar.add("100,1,testing,t,78");
+		ar.add("2.23");
+	
+	
+		
+		ar.add(200,1);
 		ar.add("testing");
 		ar.add('t');
 		ar.add(12.33);
